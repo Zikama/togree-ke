@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "dev": "gulp --require @babel/register --gulpfile tasks",
-        "build": "gulp build --require @babel/register --gulpfile tasks"
+        "build": "gulp build --require @babel/register --gulpfile tasks",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm i && npm run dev"
     },
     "keywords": [],
     "author": "",
