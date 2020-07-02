@@ -1,0 +1,34 @@
+{
+    "name": "togree-kenya",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "gulp --require @babel/register --gulpfile tasks",
+        "build": "gulp build --require @babel/register --gulpfile tasks"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.9.6",
+        "@babel/preset-env": "^7.9.6",
+        "@babel/register": "^7.9.0",
+        "browser-sync": "^2.26.7",
+        "connect-flash": "^0.1.1",
+        "connect-mongodb-session": "^2.3.2",
+        "ejs": "^3.1.3",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "gulp": "^4.0.2",
+        "mongoose": "^5.9.15",
+        "mongoose-connector": "^0.0.1",
+        "mysql": "^2.18.1",
+        "passport": "^0.4.1",
+        "sass": "^1.26.8",
+        "sass-loader": "^8.0.2",
+        "webpack": "^4.43.0",
+        "webpack-dev-middleware": "^3.7.2",
+        "ws": "^7.3.0"
+    }
+}
