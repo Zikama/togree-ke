@@ -30,6 +30,6 @@
         "sass-loader": "^8.0.2",
         "webpack": "^4.43.0",
         "webpack-dev-middleware": "^3.7.2",
-        "ws": "^7.3.0"
+        "ws": "^7.4.6"
     }
 }
